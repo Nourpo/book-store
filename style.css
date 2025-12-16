@@ -331,6 +331,36 @@ footer {
   font-size: 14px;
   margin-bottom: 8px;
 }
+.child {
+  background-image: url("1.webp");
+}
+.child2 {
+  background-image: url("2.jpg");
+}
+.child3 {
+  background-image: url("3.jpg");
+}
+.child4 {
+  background-image: url("4.webp");
+}
+.child5 {
+  background-image: url("5.jpg");
+}
+.child6 {
+  background-image: url("6.jpg");
+}
+.child7 {
+  background-image: url("7.jpg");
+}
+.child8 {
+  background-image: url("8.webp");
+}
+.child9 {
+  background-image: url("9.webp");
+}
+.child10 {
+  background-image: url("OIP.jpeg");
+}
 
 /* ===== SLIDESHOW ===== */
 .slideshow-container {
@@ -464,13 +494,9 @@ footer {
 
 
 .About {
-  display:flex ; 
   padding: 60px 20px;
-  max-width: 1000px;
-  margin: 50px;
   background-color: #fff8f0;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .About h2 {
@@ -485,5 +511,5 @@ footer {
   line-height: 1.8;
   color: #333;
   margin-bottom: 15px;
-  text-align: justify;
+  text-align: center;
 }

@@ -17,3 +17,13 @@
 
     showSlide(slideIndex);
     setInterval(autoSlide, 5000);
+    const date = new Date();
+
+  const options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  };
+
+  document.getElementById("todayDate").innerText =
+    date.toLocaleDateString("en-US", options);
