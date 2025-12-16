@@ -1,10 +1,10 @@
 :root {
-  --bg: #F3EDE6;
-  --card: #FFFFFF;
-  --primary: #7C6CE5;
-  --secondary: #F4A261;
-  --text: #2E2E2E;
-  --muted: #7A7A7A;
+  --bg: #f3ede6;
+  --card: #ffffff;
+  --primary: #7c6ce5;
+  --secondary: #f4a261;
+  --text: #2e2e2e;
+  --muted: #7a7a7a;
 }
 
 /* Reset & Base */
@@ -122,7 +122,6 @@ h2 {
   padding: 20px;
   width: 100%;
   border-radius: 10px;
-
 }
 
 .book-card h3 {
@@ -280,7 +279,6 @@ footer {
   color: var(--primary);
 }
 
-
 .scifi-17 {
   background-image: url("71nH9b9CCyL.jpg");
 }
@@ -333,7 +331,6 @@ footer {
   font-size: 14px;
   margin-bottom: 8px;
 }
-
 
 /* ===== SLIDESHOW ===== */
 .slideshow-container {
@@ -448,4 +445,45 @@ footer {
 
 .dropdown:hover .pages i {
   transform: rotate(180deg);
+}
+.reviews {
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: white;
+  padding: 15px;
+  width: 230px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.About {
+  display:flex ; 
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 50px;
+  background-color: #fff8f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.About h2 {
+  text-align: center;
+  color: #6a4fb0;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.About p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: justify;
 }
