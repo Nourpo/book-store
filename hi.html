@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="hi.html"><h1>Book Store</h1></a>
+    <nav>
+      <a href="hi.html">Home</a>
+      <div class="dropdown">
+    <a href="#" class="pages">
+        categories 
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+    </a>
+    <div class="submenu">
+        <a href="Action.html" class="submenu-item" id="Action">Action</a>
+        <a href="#" class="submenu-item" id="Horror">Horror</a>
+        <a href="#" class="submenu-item" id="Sci_FI">Sci_FI</a>
+        <a href="#" class="submenu-item" id="Child">Child</a>
+    </div>
+</div>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="categories">
+      <a href="scifi.html"><div class="category-card"><img src="science-fiction (1).png" alt="" srcset="">Fiction</div></a>
+       <a href="Action.html"><div class="category-card"><img src="idea.png" alt="" srcset="">Action</div></a>
+       <a href="Children.html"><div class="category-card"><img src="comic.png" alt="" srcset="">Children</div></a>
+       <a href="Fantasy.html"><div class="category-card"><img src="fantasy.png" alt="" srcset="">Fantasy</div></a>
+       <a href="Science.html"><div class="category-card"><img src="science.png" alt="" srcset="">Science</div></a>
+    </section>
+
+    <section>
+      <!-- ===== SLIDESHOW ===== -->
+  <div class="slideshow-container">
+    <div class="slide">
+      <img src="https://img.freepik.com/free-vector/flat-social-media-cover-template-world-book-day-celebration_23-2150201450.jpg" alt="Book 1">
+    </div>
+    <div class="slide">
+      <img src="photo_2025-12-15_23-32-02.jpg" alt="Book 2">
+    </div>
+    <div class="slide">
+      <img src="photo_2025-12-15_23-46-04.jpg" alt="Book 3">
+    </div>
+
+    <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+    <span class="next" onclick="changeSlide(1)">&#10095;</span>
+  </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Book Store. All rights reserved.
+  </footer>
+    <script src="main.js"></script>
+</body>
+</html>
